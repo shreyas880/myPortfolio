@@ -1,0 +1,27 @@
+h1{
+    color:brown;    
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color:cadetblue;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align:center;
+}
+.item{
+    padding-left:50px;
+    padding-right:50px;
+}
+body{
+    background-color: chartreuse;
+}
