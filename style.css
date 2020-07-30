@@ -4,7 +4,7 @@ h1{
 .header{
     display:flex;
     justify-content: space-between;
-    background-color:cadetblue;
+    background-color:limegreen;
 }
 .grid{
     display:flex;
@@ -23,5 +23,5 @@ p,h2{
     padding-right:50px;
 }
 body{
-    background-color: chartreuse;
+    background-color: #203070;
 }
