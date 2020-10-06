@@ -1,5 +1,7 @@
 h1{
-    color:brown;    
+    color:brown;
+    border: solid;  
+    margin: 30px;  
 }
 .header{
     display:flex;
@@ -24,4 +26,38 @@ p,h2{
 }
 body{
     background-color: #203070;
+}
+a:link{
+    color: brown;
+}
+a:visited{
+    color: brown;
+}
+.menu{
+    margin-right: 50px;
+}
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.3;
+    color: white;
+}
+.item img{
+    border: solid;
+    padding-inline-end: 0%;
+    margin: 25px;
 }
